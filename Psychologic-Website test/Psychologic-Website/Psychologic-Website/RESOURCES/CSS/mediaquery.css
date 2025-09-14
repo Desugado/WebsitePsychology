@@ -1,0 +1,855 @@
+/*Big tablets to 1120px(width smaller than 1140px*/
+@media only screen and (max-width:1200px){
+    .row{
+        padding: 0 2%;
+    }
+    
+    /*----------HEADINGS-------------*/
+
+    h1{
+        font-size: 250%;
+    }
+    
+ 
+    /*----------STICKY NAV----------*/
+
+    .left-nav{
+        display: block;
+    }
+
+    .sticky .left-nav li{
+        margin-top: -15px;
+    }
+
+    .sticky .left-nav a{
+        margin: 45px 7px;
+
+    }
+    .sticky .right-nav{
+        margin-right: 0px;
+    } 
+
+    .sticky{
+        height: auto;
+    }
+
+    .dropdown-content a{
+        padding: 8px 10px;
+       
+    }
+
+    
+
+
+    
+    /*--------BUTTONS----------*/
+
+.btn:link,
+.btn:visited,
+input[type="submit"]{
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 110%    
+}
+    
+
+    /*-----------LOGO----------*/
+
+.sticky .logo img{
+    
+  
+  
+  margin-left: 6%;
+  padding-bottom: 2%;
+  float: left;
+  display: block;
+  width: auto;
+  max-height: 70px;
+  transform: translate(0%,0%);
+}
+  
+/*----------------------------------------------------------------------*/
+/*HEADER*/
+/*----------------------------------------------------------------------*/
+
+header{
+    height: 35vh;
+}
+
+.brain{
+    width: 115%;
+    max-height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: -150px;
+    
+}
+
+.hero-text-box{
+    padding: 0 8%;
+    width: 100%;
+    top: 20%;
+}
+
+/*----------------------------------------------------------------------*/
+/*COUNSELLING*/
+/*----------------------------------------------------------------------*/
+
+.counselling-desktop{
+    display: none;
+}
+
+.counselling-bg{
+    display: none;
+}
+
+.counselling-ipad-pro{
+    display: block;
+}
+
+.counselling-bg-ipad-pro{
+    display: block;
+    margin-left: 15px;
+}
+
+.counselling-div{
+    margin-top: -1400px;
+}
+
+.counselling-div1{
+    margin-top: 500px;
+}
+
+.counselling-div2{
+    margin-top: 970px;
+}
+
+.counselling-head{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.counselling-btn{
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: -100px;
+    
+}
+
+/*----------------------------------------------------------------------*/
+/*THERAPY*/
+/*----------------------------------------------------------------------*/
+
+
+.therapy-desktop{
+    display: none;
+}
+
+.therapy-ipad-pro{
+    display: block;
+}
+
+.therapy-bg{
+    max-width: 950px;
+}
+
+
+.therapy-list{
+    margin-left: 50px;
+}
+
+.left-therapy{
+    max-width: 390px;
+    margin-top: 110px;
+}
+
+.left-therapy h3{
+    margin-bottom: -10px;
+}
+
+.left-therapy h3:first-of-type{
+    text-align: center;
+}
+
+.right-therapy{
+    margin-left: 150px;
+    max-width: 390px;
+    margin-top: 300px;
+}
+
+.right-therapy h3{
+    margin-bottom: -10px;
+}
+
+/*----------------------------------------------------------------------*/
+/*TEST*/
+/*----------------------------------------------------------------------*/
+
+.testing{
+    margin-bottom: -450px;
+    
+}
+
+.test-d{
+    padding-top: 400px;
+    
+}
+
+
+
+.bg-3{
+   margin-bottom: -750px;
+}
+
+/*----------------------------------------------------------------------*/
+/*VIDEOS*/
+/*----------------------------------------------------------------------*/
+
+.video-bg{
+    margin-left: 600px;
+}
+
+iframe{
+    height: 250px;
+    width: 250px;
+}
+
+.video4{
+    margin-left: 500px;
+    
+}
+
+/*----------------------------------------------------------------------*/
+/*BLOG*/
+/*----------------------------------------------------------------------*/
+
+
+.new{
+    margin-left: -30px;
+    
+}
+
+.bg-1{
+    margin-left: -950px;
+}
+
+.blog1{
+    margin-right: -350px;
+    margin-left: 450px;
+}
+.blog-div{
+    margin-right: 300px;
+}
+
+/*----------------------------------------------------------------------*/
+/*ABOUT*/
+/*----------------------------------------------------------------------*/
+
+.our-psychologist{
+    margin-left: -20px;
+}
+
+.info{
+    width: 500px;
+}
+
+.about-ipad{
+    display: none;
+}
+
+/*----------------------------------------------------------------------*/
+/*CONTACT FORM*/
+/*----------------------------------------------------------------------*/
+.contact-form{
+    width: 80%;
+}
+
+/*----------------------------------------------------------------------*/
+/*FOOTER*/
+/*----------------------------------------------------------------------*/
+
+.last-nav2{
+    margin-right: -800px;
+}
+footer p{
+    margin-left: 350px;
+}
+}
+
+@media only screen and (max-width:1023px){
+    body{font-size: 16px;}
+
+/*----------STICKY NAV----------*/
+
+.sticky .logo img{
+    margin-left: 15px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.sticky .left-nav li a{
+    margin: 38px 5px;
+}
+
+.sticky{
+    height: 5%;
+}
+
+
+/*----------------------------------------------------------------------*/
+/*HEADER*/
+/*----------------------------------------------------------------------*/
+
+.brain{
+    width: 120%;
+    
+}
+
+
+
+/*------------------------------------------------------------*/
+/*COUNSELLING*/
+/*-------------------------------------------------------------*/
+
+.counselling h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.counselling-ipad{
+    display: block;
+    margin-top: 340px;
+    margin-bottom: -350px;
+}
+
+.counselling-ipad-pro{
+    display: none;
+}
+
+.counselling-bg-ipad-pro{
+    width: 95%;
+}
+
+.row3{
+    width: 47%;
+}
+.counselling-div1{
+    margin-top: 370px;
+}
+
+.counselling-div2{
+    margin-top: 740px;
+}
+
+.counselling-head{
+    margin-left: 50px;
+}
+
+.counselling-btn{
+    margin-left: 80px;
+    margin-bottom: -200px;
+}
+
+/*----------------------------------------------------------------------*/
+/*THERAPY*/
+/*----------------------------------------------------------------------*/
+
+.therapy-bg{
+    width: 94%;
+}
+
+.therapy-ipad-pro{
+    display: none;
+}
+
+.therapy-ipad{
+    display: block;
+}
+
+.therapy-list{
+    margin-left: 30px;
+    
+}
+
+.left-therapy{
+    margin-top: 510px;
+    max-width: 300px;
+}
+
+.right-therapy{
+    max-width: 300px;
+    margin-left: 415px;
+    margin-top: -1090px;
+    margin-bottom: -500px;
+}
+
+
+/*----------------------------------------------------------------------*/
+/*TESTING*/
+/*----------------------------------------------------------------------*/
+
+
+
+.test-img{
+    width: 200px;
+    height: auto;
+}
+.test-d{
+    font-size: 180%;
+    font-weight: 600;
+    margin-right: 450px;
+    margin-left: -70px;
+    padding-top: 500px;
+    
+}
+
+.test-list{
+    margin-bottom: -300px;
+}
+
+
+
+
+
+/*----------------------------------------------------------------------*/
+/*VIDEOS*/
+/*----------------------------------------------------------------------*/
+
+iframe{
+    height: 200px;
+    width: 200px;
+}
+
+.video1{
+    margin-left: 50px;
+}
+
+.video3{
+    margin-top: -200px;
+}
+
+.video4{
+    margin-left: 150px;
+    margin-top: -350px;
+    
+    
+}
+
+.video-bg{
+    margin-left: 450px;
+    max-height: 400px;
+    
+    
+}
+
+/*----------------------------------------------------------------------*/
+/*BLOG*/
+/*----------------------------------------------------------------------*/
+
+.bg-1{
+    max-height: 700px;
+    margin-left: -800px;
+}
+
+.new{
+    margin-top: 330px;
+}
+
+.name{
+    margin-right: -15px;
+}
+
+.author{
+    margin-right: 0px;
+}
+
+.blog-post-4{
+    display: none;
+}
+
+.blog-post{
+    margin-left: 5px;
+}
+
+.blog{
+    height: 55px;
+    width: 55px;
+    margin-top: 25px;
+}
+
+.blog-post a{
+    font-size: 90%;
+}
+
+.blog1{
+    margin-left: 300px;
+    margin-top: 170px;
+}
+
+/*----------------------------------------------------------------------*/
+/*ABOUT*/
+/*----------------------------------------------------------------------*/
+
+.about-img{
+    max-width: 400%;
+    margin-left: -80px;
+    margin-top: 200px;
+}
+
+.about-desktop{
+    display: none;
+}
+
+.about-ipad{
+    display: block;
+}
+
+.designation{
+    margin-top: -330px;
+    
+}
+
+.our-psychologist{
+    margin-left: 280px;
+    margin-right: -200px;
+    margin-top: -650px;
+
+}
+
+/*----------------------------------------------------------------------*/
+/*FOOTER*/
+/*----------------------------------------------------------------------*/
+
+.footer-bg{
+    max-width: 120%;
+    margin-left: -100px;
+    margin-top: 0px;
+}
+
+.last-nav3{
+    margin-top: 100px;
+}
+
+footer p{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.last-nav2{
+    margin-left: -220px;
+}
+}
+
+@media only screen and (max-width:767px){
+    body{font-size: 15px;}
+
+    .col{width: 100%;}
+    .row,.hero-text-box{padding: 0 4%;}
+
+/*----------MOBILE NAV----------*/
+
+.left-nav{
+    display: none;
+}
+
+
+
+.sticky .logo img{
+    max-width: 30%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.sticky,
+.sticky1{
+    height: auto;
+}
+
+.sticky .left-nav li {
+    margin-bottom: -80px;
+}
+
+.sticky .left-nav{
+    margin: 0 5%;
+}
+
+.sticky .left-nav li:last-child{
+    margin-bottom: -30px;
+}
+
+.mobi-nav-icon i{
+    display: block;
+    margin-left: 88%;
+    margin-top: 5%;
+    font-size: 140%;
+}
+
+
+/*----------------------------------------------------------------------*/
+/*HEADER*/
+/*----------------------------------------------------------------------*/
+
+header{
+    height: 50vh;
+}
+.brain{
+    width: 200%;
+    margin-left: -95%;
+    margin-top: 65%;    
+    overflow: hidden;
+}
+
+.hero-text-box{
+    text-align: center;
+    margin-left: 5%;
+    top: 25%;
+}
+
+.hero-text-box h1{
+    margin-left: 8%;
+}
+
+/*----------------------------------------------------------------------*/
+/*COUNSELLING*/
+/*----------------------------------------------------------------------*/
+
+.counselling h2{
+    margin-top: 20%;
+}
+
+.counselling-bg-ipad-pro{
+    display: none;
+}
+
+.counselling-ipad{
+    display: none;
+}
+
+.counselling-bg-mobile{
+    display: block;
+    max-width: 128%;
+    margin-left: 3%;
+}
+
+.counselling-head{
+    
+    margin: 0 auto;
+    margin-top: 25%;
+}
+
+.counselling-btn{
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-bottom: -300px;
+}
+
+/*----------------------------------------------------------------------*/
+/*THERAPY*/
+/*----------------------------------------------------------------------*/
+
+.therapy-ipad{
+    display: none;
+}
+
+.therapy-mobile{
+    display: block;
+}
+
+/*----------------------------------------------------------------------*/
+/*TESTING*/
+/*----------------------------------------------------------------------*/
+
+.test-list{
+    display: none;
+}
+
+.test-list-mobile{
+    display: block;
+    margin-top: 15%;
+    
+}
+
+.psy-test1{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.psy-test1 p{
+    margin: 30px 0px;
+}
+
+.test-d{
+    margin: 0 auto;
+    margin-left: -30%;
+    margin-top: -90%; 
+}
+
+.test .btn{
+    margin: 0 auto;
+    margin-left: -30%;
+    margin-top: 10%;
+    margin-bottom: -500%;
+}
+
+.bg-test-2{
+    display: none;
+}
+
+.bg-3{
+    max-width: 190%;
+    margin-left: -90%;
+}
+
+/*----------------------------------------------------------------------*/
+/*VIDEO*/
+/*----------------------------------------------------------------------*/
+
+.video-desktop{
+    display: none;
+}
+
+.video-mobile{
+    display: block;
+    margin-top: -70%;
+}
+
+.video-mobile h2{
+    text-align: center;
+    margin-bottom: 30%;
+}
+
+.video{
+    text-align: center;
+}
+
+.video h3{
+    margin: 30px auto;
+}
+
+/*----------------------------------------------------------------------*/
+/*BLOG*/
+/*----------------------------------------------------------------------*/
+
+.blogs-div{
+    display: none;
+}
+
+.bg-1{
+    max-width: 150%;
+    margin: 0 auto;
+    margin-left: -45%;
+}
+
+.new-name{
+    text-align: left;
+    margin-left: 5%;
+}
+
+.new{
+    margin: 0 auto;
+    margin-top: -135%;
+    max-width: 100%;
+    
+}
+
+.blog1{
+    margin: 0 auto;
+}
+
+.new .col{
+    width: auto;
+}
+
+.name{
+    margin-right: 20%;
+}
+
+.author{
+    margin-top: -15%;
+}
+
+.blog-title{
+    margin-top: -20%;
+}
+
+/*----------------------------------------------------------------------*/
+/*ABOUT*/
+/*----------------------------------------------------------------------*/
+
+.about h2 img{
+    max-width: 35%;    
+    margin-bottom: -2%;
+}
+
+.about h2{
+    margin-top: -50%;
+}
+
+.about-img{
+    margin-top: 0px;
+    max-width: 300%;
+    
+}
+
+.our-psychologist{
+    margin-top: 80%;
+    margin-left: -4%;
+    max-width: 110%;
+    margin-bottom: -50%;
+}
+
+/*----------------------------------------------------------------------*/
+/*CONTACT*/
+/*----------------------------------------------------------------------*/
+
+.contact-form{
+   width: 100%;
+}
+
+/*----------------------------------------------------------------------*/
+/*FOOTER*/
+/*----------------------------------------------------------------------*/
+
+
+.footer-bg{
+    max-width: 200%;
+}
+.last-nav2{
+    margin-top: -17%;
+    margin-right: -230%;
+}
+
+.last-nav3{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+}
+
+footer p{
+    margin: 0 auto;
+    margin-left: 35%;
+    margin-right: 0px;
+    
+
+}
+}
+
+@media only screen and (max-width:320px){
+
+    /*--------BUTTONS----------*/
+    .btn:link,
+    .btn:visited,
+    input[type="submit"]{
+        padding: 10px 10px;
+    }
+
+    header h1{
+        font-size: 32px;
+    }
+}
+
